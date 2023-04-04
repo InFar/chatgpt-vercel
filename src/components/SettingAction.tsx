@@ -141,7 +141,7 @@ export default function SettingAction(props: {
         </div>
         <hr class="my-1 bg-slate-5 bg-op-15 border-none h-1px"></hr>
       </Show>
-      <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between" style="display: none;">
         <ActionItem
           onClick={() => {
             setShown(!shown())
